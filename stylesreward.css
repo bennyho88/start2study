@@ -1,0 +1,121 @@
+/*
+
+.container {
+  display: grid;
+  column-gap: 20px;
+}
+
+.school {
+    height: 600px;
+    background-color: yellow;
+    background-image: url(https://cdn.pixabay.com/photo/2012/12/21/10/07/background-71698_960_720.jpg);
+    position: relative;
+    top: 150px;
+   
+}
+
+.class {
+    background-color: green;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2012/12/21/10/07/background-71698_960_720.jpg);
+  
+}
+
+.individual {
+    background-color: lightblue;
+    background-image: url(https://cdn.pixabay.com/photo/2012/12/21/10/07/background-71698_960_720.jpg);
+    height: 450px;
+   
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+*/
+
+
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 50px;
+text-align: center;
+
+}
+
+.school {
+background-color: yellow;
+height: 400px;
+position: relative;
+top: 200px;
+background-image: url(https://i.ytimg.com/vi/orxXlAltFQg/maxresdefault.jpg);
+background-size: cover;
+
+}
+
+.class {
+background-color: red;
+height: 250px;
+position: relative;
+top: 350px;
+background-image: url(https://i.ytimg.com/vi/orxXlAltFQg/maxresdefault.jpg);
+background-size: cover;
+
+}
+
+.individual {
+background-color: green;
+height:350px;
+position: relative;
+top: 250px;
+background-image: url(https://i.ytimg.com/vi/orxXlAltFQg/maxresdefault.jpg);
+background-size: cover;
+
+}
+
+.text-school {
+ position: relative;
+ bottom: 50px;
+}
+
+.text-class {
+ position: relative;
+ bottom: 50px;
+
+}
+
+.text-individual {
+ position: relative;
+ bottom: 50px;
+
+}
+
+.text-reward {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 50px;
+/*
+
+.school {
+background-color: yellow;
+height: 600px;
+}
+
+.class {
+background-color: red;
+height: 250px;
+}
+
+.individual {
+background-color: green;
+height: 350px;
+}
+
+
+.row {
+ display: grid;
+ grid-gap: 50px;
+}
